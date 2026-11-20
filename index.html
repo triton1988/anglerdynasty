@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Angler Dynasty — Support</title>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@600&display=swap">
+<style>
+/* Тихая страница документа: узкая колонка, речная бирюза как акцент */
+:root {
+  --bg: #f6f8f8; --fg: #1d2a2e; --muted: #57686d; --line: #d6e0e1; --accent: #12807c;
+  --display: "Space Grotesk", system-ui, sans-serif; --body: "Inter", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #0f1a1d; --fg: #e3eced; --muted: #9bb0b4; --line: #26383c; --accent: #3cc2bc; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #0f1a1d; --fg: #e3eced; --muted: #9bb0b4; --line: #26383c; --accent: #3cc2bc; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+main { max-width: 680px; margin: 0 auto; display: grid; gap: 28px; }
+h1, h2 { font-family: var(--display); text-wrap: balance; margin: 0; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.2rem; color: var(--accent); }
+p, li { margin: 0; color: var(--fg); }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+section { display: grid; gap: 10px; padding-top: 22px; border-top: 1px solid var(--line); }
+.meta { color: var(--muted); font-size: 0.9rem; }
+nav { display: flex; gap: 14px; flex-wrap: wrap; }
+nav a { color: var(--accent); font-weight: 600; }
+</style>
+</head><body><main>
+  <header style="display:grid;gap:8px"><h1>Angler Dynasty</h1>
+  <p class="meta">Fishing, a fleet and a family business — iPhone game</p></header>
+  <section><h2>Support</h2>
+  <p>Questions, bugs or purchase problems: write to the developer through the contact on the game's App Store page. Please include your iPhone model and iOS version.</p>
+  <ul><li>Lost a purchase after reinstalling? Open <b>Menu → Settings → Restore</b>.</li>
+  <li>Change the language: <b>Menu → Settings → Language</b> (9 languages).</li>
+  <li>The game works offline and has no accounts.</li></ul></section>
+  <section><h2>Documents</h2><nav><a href="privacy.html">Privacy Policy</a></nav></section>
+  <section id="ru"><h2>Поддержка (RU)</h2>
+  <p>Вопросы и ошибки — через контакт разработчика на странице игры в App Store. Пропала покупка после переустановки — «Меню → Настройки → Восстановить». Язык — «Меню → Настройки → Язык».</p>
+  <nav><a href="privacy.html#ru">Политика конфиденциальности</a></nav></section>
+</main></body></html>
